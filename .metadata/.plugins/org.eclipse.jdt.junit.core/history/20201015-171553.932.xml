@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StudentdalApplicationTests.testCreateStudent" project="studentdal" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.atif.studentProject.dal.StudentdalApplicationTests" time="0.203" displayname="StudentdalApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.atif.studentProject.dal.StudentdalApplicationTests]">
+    <testcase name="testCreateStudent" classname="com.atif.studentProject.dal.StudentdalApplicationTests" time="0.203" displayname="testCreateStudent()" uniqueid="[engine:junit-jupiter]/[class:com.atif.studentProject.dal.StudentdalApplicationTests]/[method:testCreateStudent()]"/>
+  </testsuite>
+</testrun>

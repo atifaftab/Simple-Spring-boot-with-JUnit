@@ -1,0 +1,33 @@
+package com.atif.studentProject.dal;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.atif.studentProject.dal.entities.Student;
+import com.atif.studentProject.dal.repos.StudentRepository;
+
+@SpringBootTest
+class StudentdalApplicationTests {
+
+	@Autowired
+	private StudentRepository studentRepo;
+	
+	@Test
+	public void testCreateStudent() {
+		
+		Student student = new Student();
+		student.setName("Atif");
+		student.setCourse("Self Learning");
+		student.setFee(0d);
+		
+		studentRepo.save(student);
+	}
+
+	@Test
+	public void testFindStudentById() {
+		studentRepo.findById((long) 1);
+	}
+
+}
+

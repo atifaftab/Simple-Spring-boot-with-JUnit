@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StudentdalApplicationTests.testFindStudentById" project="studentdal" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.atif.studentProject.dal.StudentdalApplicationTests" time="0.245" displayname="StudentdalApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.atif.studentProject.dal.StudentdalApplicationTests]">
+    <testcase name="testFindStudentById" classname="com.atif.studentProject.dal.StudentdalApplicationTests" time="0.245" displayname="testFindStudentById()" uniqueid="[engine:junit-jupiter]/[class:com.atif.studentProject.dal.StudentdalApplicationTests]/[method:testFindStudentById()]"/>
+  </testsuite>
+</testrun>
